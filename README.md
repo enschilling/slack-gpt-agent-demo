@@ -170,6 +170,8 @@ Example:
 
 ## Google Cloud Run Deployment
 
+Detailed notes are in [docs/cloud-run.md](docs/cloud-run.md).
+
 After pushing this folder to GitHub:
 
 1. Open Google Cloud Run.
