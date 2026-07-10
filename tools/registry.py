@@ -66,13 +66,13 @@ TOOL_DEFINITIONS = [
     {
         "type": "function",
         "name": "check_demo_travel",
-        "description": "Read simulated travel-confirmation data from a local JSON file.",
+        "description": "Read simulated travel-confirmation data from local JSON files.",
         "parameters": {
             "type": "object",
             "properties": {
                 "destination": {
                     "type": "string",
-                    "description": "Optional destination filter, such as 'Denver'.",
+                    "description": "Optional destination or month filter, such as 'Denver', 'July', or 'August'.",
                 }
             },
             "required": [],
