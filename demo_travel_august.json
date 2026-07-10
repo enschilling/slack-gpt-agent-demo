@@ -1,0 +1,19 @@
+{
+  "trips": [
+    {
+      "name": "August Chicago demo trip",
+      "start_date": "2026-08-18",
+      "end_date": "2026-08-20",
+      "destination": "Chicago, IL",
+      "flight": {
+        "airline": "AA",
+        "number": "2207",
+        "from": "SEA",
+        "to": "ORD",
+        "departure_local": "2026-08-18T08:15:00",
+        "status": "Demo data only: gate not assigned yet"
+      },
+      "notes": "Use this as the August simulated email/travel-confirmation source for demos."
+    }
+  ]
+}
