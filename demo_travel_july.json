@@ -1,0 +1,19 @@
+{
+  "trips": [
+    {
+      "name": "July Denver demo trip",
+      "start_date": "2026-07-14",
+      "end_date": "2026-07-16",
+      "destination": "Denver, CO",
+      "flight": {
+        "airline": "UA",
+        "number": "1234",
+        "from": "SEA",
+        "to": "DEN",
+        "departure_local": "2026-07-14T09:30:00",
+        "status": "Demo data only: on time"
+      },
+      "notes": "Use this as the July simulated email/travel-confirmation source for demos."
+    }
+  ]
+}
