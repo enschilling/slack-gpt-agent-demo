@@ -60,6 +60,7 @@ class SlackAgent:
                 model=settings.openai_model,
                 input=tool_outputs,
                 previous_response_id=response.id,
+                tools=TOOL_DEFINITIONS,
             )
 
         return "I hit the tool-call limit for this demo. Try asking a narrower question."
