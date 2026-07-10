@@ -160,12 +160,20 @@ Example:
 
 ## Demo Travel Tool
 
-The travel tool reads `demo_travel.json`. This simulates an email or travel-confirmation integration without connecting to a real inbox.
-
-Example:
+The travel tool reads the bundled month-specific demo files:
 
 ```text
-@demo-agent Check my Denver trip and tell me what to pack.
+demo_travel_july.json
+demo_travel_august.json
+```
+
+This simulates an email or travel-confirmation integration without connecting to a real inbox. The tool can filter by destination or by month.
+
+Examples:
+
+```text
+@demo-agent Check my July travel and tell me what to pack.
+@demo-agent Check my August travel and tell me what to pack.
 ```
 
 ## Google Cloud Run Deployment
